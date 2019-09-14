@@ -1,0 +1,149 @@
+/* MAIN NAVIGATOR
+
+.navigator {
+	list-style-type: none;
+	text-align: center;
+	background: rgb(153, 0, 51)		;
+	position: sticky;
+	top: 0;
+	margin: 0;
+	z-index: 3;
+
+}
+
+li.navigatorElement {
+	display: inline-block;
+	width: 20%;
+	padding: 10px;
+}
+
+li.navigatorElement  a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+li.navigatorElement a:hover {
+	color: rgb(51, 51, 204);	
+}
+
+li.navigatorElement a:active {
+	color: black;
+}
+
+li.navigatorElement a:visited {
+	color: rgb(0, 204, 153);
+}
+*/
+
+/* BLOG HEAD */
+div.blogHead {
+	position: sticky;
+	top: 78px;
+	z-index: 1;
+}
+
+.blogHead {
+	background: rgb(204, 204, 204);
+	font-size: 15px;
+}
+
+.blogHead p {
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	word-spacing: 15px;
+}
+
+/* BLOG NAVIGATOR*/
+
+.blogNavigator {
+	list-style-type: none;
+	text-align: center;
+	background: rgb(255, 102, 0);
+	position: sticky;
+	top: 39px;
+	margin: 0;
+	z-index: 2;
+}
+
+.blogNavigator li {
+	display: inline-block;
+	width: 18%;
+	padding: 10px;
+}
+
+.blogNavigator a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+.blogNavigator a:hover {
+	color: rgb(255, 209, 26);
+}
+
+.blogNavigator a:active {
+	color: black;
+}
+
+.blogNavigator a:visited {
+	color: rgb(153, 0, 0);
+}
+
+/* POST SIZING */
+
+.blogPost {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 100%;
+}
+
+.blogArticle {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/* IMAGE SIZING*/
+
+.blogImageContainer {
+	height: 800px;
+	width: 600px;
+}
+
+
+.blogImageContainer img {
+	position: static;
+	max-width: 100%;
+	max-height: auto;
+
+}
+
+/* TEXT SIZING*/
+
+.blogTextContainer {
+	height: 800px;
+	width: 50%;
+	overflow: scroll;
+}
+
+.blogTextContainer > p {
+	padding-top: 0px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+}
+
+.mostPopular, .mostDiscussed, .mostShared, .mostWanted, .myFavourite {
+	margin: auto;
+	width: 100%
+}
+

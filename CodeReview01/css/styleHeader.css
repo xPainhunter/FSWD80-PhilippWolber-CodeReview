@@ -1,0 +1,27 @@
+.header {
+	background: rgb(204, 204, 204);
+}
+
+.head {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: auto;
+	width: 100%;
+}
+
+#headImage {
+	height: auto;
+	width: 25%;
+}
+
+#headParagraph {
+	font-family: Times Roman New;
+	font-size: 40px;
+	font-weight: bold;
+	color: rgb(153, 0, 0);
+	text-align: right;
+	vertical-align: center;
+	transform: translateY(0%);
+	/*transform: translateX(30%);*/
+}

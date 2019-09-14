@@ -1,0 +1,38 @@
+.article {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 20px;
+}
+
+.articleImageComp {
+}
+
+.articleImageComp > img {
+	width: auto;
+	height: 400px;
+}
+
+
+.articleTextComp {
+	height: 400px;
+	width: auto;
+	overflow: scroll;
+}
+
+#articleText {
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+p#articleText {
+	font-size: 20px;
+}
+
+p#articleText > span {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+
+}

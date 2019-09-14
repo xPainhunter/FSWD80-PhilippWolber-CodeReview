@@ -1,0 +1,53 @@
+/* LATEST BLOG POSTS HEAD*/
+div.latestPostsHead {
+	position: sticky;
+	top: 39px;
+}
+
+.latestPostsHead {
+	background: rgb(204, 204, 204);
+	font-size: 15px;
+}
+
+.latestPostsHead p {
+	padding: 10px;
+	border: 1px solid double black;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	word-spacing: 15px;
+}
+
+/* IMAGE ARRANGEMENT*/
+.imgContainerMain {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;	
+	width: 100%;
+	
+}
+
+.imgContainer {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+
+}
+
+.imgText {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;	
+}
+
+.imgText img {
+	width: 500px;
+	height: 300px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+p.imageText {
+	font-weight: bold;
+	text-align: center;
+}

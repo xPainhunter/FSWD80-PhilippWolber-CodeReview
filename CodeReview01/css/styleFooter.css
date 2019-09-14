@@ -1,0 +1,10 @@
+.footerImage > img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 20%;
+}
+
+.footerText {
+	text-align: center;
+}
