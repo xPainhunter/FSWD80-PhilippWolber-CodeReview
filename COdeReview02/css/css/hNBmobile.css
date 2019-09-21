@@ -1,0 +1,40 @@
+body {
+  background: #4f4a46; }
+  body .header {
+    background: #b82a2a;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 15px; }
+    body .header .logo {
+      width: 30%;
+      vertical-align: center;
+      transform: translateY(20%); }
+    body .header .banner1 img {
+      display: none; }
+  body .navBar {
+    list-style-type: none;
+    background: #a60707;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    margin: 0;
+    padding: 1px; }
+    body .navBar li {
+      display: inline-block;
+      width: auto;
+      padding-left: 10px; }
+      body .navBar li a {
+        text-decoration: none;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: white;
+        font-size: 15 px; }
+      body .navBar li a:hover {
+        color: #7fada4; }
+      body .navBar li a:active {
+        color: #730707; }
+      body .navBar li a:visited {
+        color: #400303; }
+
+/*# sourceMappingURL=hNBmobile.css.map */

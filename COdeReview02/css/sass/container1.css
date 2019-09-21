@@ -1,0 +1,38 @@
+@media screen and (min-width: 1201px) {
+  .container1 {
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px; }
+    .container1 .container1Left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 10px; }
+      .container1 .container1Left .subHead {
+        width: 100%;
+        background: #d9661e;
+        position: sticky;
+        top: 58px;
+        margin: 0;
+        z-index: 1; }
+        .container1 .container1Left .subHead p {
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-left: 20px;
+          color: white; }
+      .container1 .container1Left .imgCont {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px; }
+        .container1 .container1Left .imgCont .imgCont1 {
+          width: 28%;
+          height: auto; }
+          .container1 .container1Left .imgCont .imgCont1 img {
+            width: 100%;
+            height: auto; } }
+
+/*# sourceMappingURL=container1.css.map */

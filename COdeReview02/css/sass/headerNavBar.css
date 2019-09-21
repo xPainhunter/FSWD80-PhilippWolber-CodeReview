@@ -1,0 +1,51 @@
+@media screen and (min-width: 1201px) {
+  body {
+    background: #bd9a5e; }
+
+  .page {
+    margin: 0 auto;
+    width: 90%;
+    padding: 0px; }
+
+  .header {
+    background: #b82a2a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    padding: 15px; }
+    .header .logo {
+      width: 30%;
+      vertical-align: center;
+      transform: translateY(20%); }
+    .header .banner-1 {
+      width: 70%;
+      text-align: right;
+      transform: translateY(10%); }
+
+  .navBar {
+    list-style-type: none;
+    background: #a60707;
+    text-align: center;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    margin: 0;
+    padding: 1px; }
+    .navBar li {
+      display: inline-block;
+      width: 20%; }
+      .navBar li a {
+        text-decoration: none;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: white;
+        font-size: 20px; }
+      .navBar li a:hover {
+        color: #7fada4; }
+      .navBar li a:active {
+        color: #730707; }
+      .navBar li a:visited {
+        color: #400303; } }
+
+/*# sourceMappingURL=headerNavBar.css.map */

@@ -1,0 +1,29 @@
+@media screen and (min-width: 481px) {
+  .footer {
+    background: #730707;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 5px; }
+    .footer div {
+      text-align: center; }
+    .footer p {
+      font-style: italic;
+      letter-spacing: 2px;
+      font-size: 25px;
+      color: white; } }
+@media screen and (max-width: 480px) {
+  .footer {
+    background: #730707;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 5px; }
+    .footer div {
+      text-align: center; }
+    .footer p {
+      letter-spacing: 2px;
+      font-size: 20px;
+      color: white; } }
+
+/*# sourceMappingURL=footer.css.map */
