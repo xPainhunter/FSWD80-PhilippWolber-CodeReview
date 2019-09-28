@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Insurance CF</title>
+		<link rel="stylesheet" type="text/css" href="../css/styleInsuranceHome.css">
+		<link rel="stylesheet" type="text/css" href="../css/styleInsuranceMainPageInputForm.css">
+		<link rel="stylesheet" type="text/css" href="../css/styleInsuranceMainPageOtherContent.css">
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="logo"><img src="../img/logo.png" alt="CFLogo" title="CodeFactory Logo"></div>
+			<div class="banner"><img src="../img/banner.png" alt=""></div>
+		</div>
+
+		<div class="navBar">
+			<ul>
+				<li><a href="insuranceHome.html">Home</a></li>
+				<li><a href="insuranceTeam.html">Team</a></li>
+			</ul>
+		</div>
+
+		<div class="mainCont">
+			<div class="mainHeading">
+				<p>Car insurance</p>
+			</div>
+			<div class="mainForm">
+				<div class="mainIntro">
+					<p>Great coverage begins <br>with a custom quote</p>
+				</div>
+				<div class="btn">
+					<div class="btn">
+						<div class="btnAndLabel">
+							<label id="inputLabel" for="formName">Your name:</label><br>
+							<input type="text" name="Your name:" id="formName" placeholder="Max Mustermann">
+						</div>
+					</div>
+					<div class="btn">
+						<div class="btnAndLabel">
+							<label id="inputLabel" for="formAge">Your age:</label><br>
+							<input type="text" name="Age:" id="formAge" placeholder="45">
+						</div>
+					</div>
+				</div>
+
+				<div class="btn">
+					<div class="btn">
+						<div class="btnAndLabel">
+							<label id="inputLabel" for="countrySelector">Select Your Country</label><br>
+							<select name="country" id="countrySelector">
+								<option value="plsSelect">Please Select</option>
+								<option value="Austria" id="aut">Austria</option>
+								<option value="Hungary" id="hun">Hungary</option>
+								<option value="Greece" id="gre">Greece</option>
+							</select>
+						</div>
+					</div>
+					<div class="btn">
+						<div class="btnAndLabel">
+							<label id="inputLabel" for="formHorse">Horsepower of your car:</label><br>
+							<input type="text" name="horsepower" id="formHorse" placeholder="450">
+						</div>
+					</div>
+				</div>
+				<div class="calcbtn"><button type="button" id="calcBtn" onclick="calculate()">Calculate</button></div>
+				<div id="result">
+					<!-- result will be displayed here! do not write anything -->
+				</div>
+			</div>
+		</div>
+
+			<div class="someInformation">
+				<h3>
+					Un-complicating car coverage
+				</h3>
+				<p>
+					Understanding your coverage options shouldn't be so hard. <br>
+					We'll guide you through available coverage typer, <br>
+					starting with who and what is covered.
+				</p>
+			</div>
+		<div class="models">
+			<div class="insuranceModels">
+				<h3>
+					What comes standard
+				</h3>
+				<p>
+					The coverage you need
+				</p>
+				<ul>
+					<li>
+						Bodily Injury Liability
+					</li>
+					<li>
+						Property Damage
+					</li>
+					<li>
+						Medical Payments
+					</li>
+				</ul>
+				<div>
+					<p class="special">
+						Benefits
+					</p>
+					<p>
+						12-month rate guarantee | 24/7 customer <br>
+						service | Lifetime Repair Guarantee
+					</p>
+				</div>
+			</div>
+			<div class="insuranceModels">
+				<h3>
+					Addo-on protection & coverage
+				</h3>
+				<p>
+					For more peace of mind
+				</p>
+				<ul>
+					<li>
+						Better Car Replacement
+					</li>
+					<li>
+						Towing & Labor
+					</li>
+					<li>
+						Rental Car Coverage
+					</li>
+				</ul>
+				<div>
+					<p class="special">
+						Earned Benefits
+					</p>
+					<p>
+						Accident Forgiveness<sup>1</sup> | New Car <br>
+						Replacement<sup>TM</sup>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="footer">
+			<div>
+				<img src="../img/logo.png" alt="LogoCF" title="Logo of CodeFactory Vienna">
+			</div>
+			<div>
+				<p>
+					Philipp Wolber - Codefactory 2019
+				</p>
+			</div>
+		</div>
+
+		<script src="../js/insurance.js" type="text/javascript" charset="utf-8" async defer></script>
+	</body>
+</html>

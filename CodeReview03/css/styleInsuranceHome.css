@@ -1,0 +1,60 @@
+@media screen and (min-width: 481px) {
+
+	.mainCont{
+		background-image: url("../img/traffic.jpg");
+		width: 90%;
+	}
+
+
+	/* HEADER AND NAVIGATION BAR */
+	.header{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.navBar{
+		background: rgb(128, 0, 0);
+		padding: 0.1px;
+	}
+
+	.navBar ul {
+		list-style-type: none;
+		padding-left: 20px;
+
+	}
+
+	.navBar ul li {
+		padding: 20px;
+		display: inline;
+	}
+
+	.navBar ul li a {
+		text-decoration: none;
+		color: white;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		width: 20%;
+		font-size: 130%;
+	}
+
+	.navBar ul li a:hover{
+		color: grey;
+	}
+
+
+
+
+
+
+	/* FOOTER */
+	.footer {
+		text-align: center;
+		background: rgb(128, 0, 0);
+		padding: 20px;
+	}
+
+	.footer p{
+		color: white;
+	}
+}

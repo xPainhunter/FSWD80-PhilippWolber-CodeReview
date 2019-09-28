@@ -1,0 +1,61 @@
+@media screen and (min-width: 481px) {
+
+	/* MAIN PAGE DESIGN */
+	.mainCont{
+		width: 90%;
+		padding: 80px;
+	}
+
+	.mainHeading{
+		font-size: 500%;
+		color: white;
+	}
+
+	.mainForm{
+		width: 80%;
+		background: white;
+		opacity: 0.6;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		padding: 30px;
+		margin: 0 auto;
+	}
+
+	.mainIntro{
+		font-size: 450%;
+	}
+	.btn {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		padding: 20px;
+		flex-wrap: wrap;
+	}
+
+	.btnAndLabel{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#formName, #formAge, #formHorse, #countrySelector, #calcBtn{
+		width: 300px;
+		height: 30px;
+		background: white;
+		opacity: 0.8;
+		border: 2px solid black;
+	}
+
+	#inputLabel{
+		font-size: 150%;
+		letter-spacing: 2px;
+		word-spacing: 4px;
+		margin-bottom: 10px;
+	}
+
+	#result {
+		font-size: 200%;
+		padding: 50px;
+	}
+}

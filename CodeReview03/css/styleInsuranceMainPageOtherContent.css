@@ -1,0 +1,53 @@
+@media screen and (min-width: 481px) {
+
+	/* SOMEINFORMATION STYLE */
+
+	.someInformation{
+		background: grey;
+		text-align: center;
+		width: 100	%;
+		padding:  50px;
+	}
+
+	.someInformation h3 {
+		font-size: 200%;
+	}
+
+	.someInformation p {
+		font-size: 200%;
+	}
+
+
+	/* INSURANCE MODELS STYLING */
+	.models{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+
+	.insuranceModels {
+		width: 400px;
+		height: auto;
+		border: 2px solid black;
+		padding: 20px;
+	}
+
+	.insuranceModels h3{
+		font-size: 150%;
+		color: darkblue;
+	}
+
+
+	.insuranceModels ul {
+		padding: 10px;
+	}
+
+
+	.insuranceModels .special {
+		font-weight: bold;
+	}
+}
