@@ -1,0 +1,86 @@
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title></title>
+		<!-- Required meta tags -->
+			<meta  charset="utf-8">
+			<meta name ="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+		<!-- Bootstrap CSS -->
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<!-- CSS Stylesheet -->
+			<link rel="stylesheet" href="../css/movieStyle.css">
+			<!-- <style type="text/css" media="screen">
+				div.row {
+					border: 2px solid red;
+				}
+				div.row > div{
+					border: 2px double black;
+				}
+			</style>	 -->
+		</head>
+	
+		<body>
+			<div class="container">
+				<div class="row justify-content-center header">
+					<div class="col headerText">Movie Factory</div>
+				</div>
+				
+				<div class="row navBar">
+					<ul class="nav">
+						<li class="nav-item">
+							<a href="" class="nav-link-active">Home</a>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="row navElement">
+					<div class="col-12">
+						Movies
+					</div>
+					<div>
+						<select name="sort" id="select">
+							<option value="all" selected>All</option>
+							<option value="likes">Likes</option>
+							<!-- <option value="genre">Genre</option>
+							<option value="time">Time of upload</option>
+							<option value="alpha">Alphabetic</option> -->
+						</select>
+					</div>
+				</div>	
+
+				<div class="row justify-content-around movies" id="movieCards">
+					<!-- <div class="card mb-3 mCard" style="max-width: 450px;">
+						<div class="row no-gutters">
+							<div class="col-md-4">
+						    	<img src="../img/pulpFiction.jpg" class="card-img mImg" alt="Cover Pulp Fiction Movie">
+							</div>
+							<div class="col-md-8">
+						    	<div class="card-body">
+								<h5 class="card-title">Pulp Fiction</h5>
+								<p class="card-text">movie description goes here</p>
+								<div class="row justify-content-between like">
+									<a href="#" class="col-6 align-self-start btn btn-primary movieBtn">Like &#128077;</a>
+									<span class=" align-self-end" id="counter">0</span>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div> -->
+				</div>
+				<div class="row justify-content-center footer">
+					<div class="footerText">
+						Movie Factory
+					</div>
+				</div>
+			</div>
+
+			<script src="../js/movie.js" type="text/javascript" charset="utf-8" async defer></script>
+		</body>
+	</html>
